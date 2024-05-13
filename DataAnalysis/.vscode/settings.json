@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "hiveCLIServiceProtocolVersion": "V11",
+            "previewLimit": 50,
+            "driver": "Hive",
+            "name": "sql",
+            "host": "47.102.86.83",
+            "port": 10000,
+            "username": "root",
+            "password": "root"
+        }
+    ]
+}

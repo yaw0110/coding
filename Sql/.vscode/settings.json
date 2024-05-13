@@ -1,0 +1,28 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "172.17.139.226",
+            "port": 19030,
+            "driver": "MySQL",
+            "name": "doris2",
+            "username": "root",
+            "database": "mysql",
+            "password": ""
+        },
+        {
+            "hiveCLIServiceProtocolVersion": "V11",
+            "previewLimit": 50,
+            "driver": "Hive",
+            "name": "sql",
+            "host": "47.102.86.83",
+            "port": 10000,
+            "username": "root",
+            "password": "root"
+        }
+    ]
+}

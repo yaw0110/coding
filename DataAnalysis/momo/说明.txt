@@ -1,0 +1,6 @@
+本项目采用python pyecharts pandas等等生成数据可视化大屏
+
+data.ipynb是将附件一的数据进行转换生成data.csv，背后是使用AI大模型进行转换
+
+analysis1.ipynb是通过附件一数据生成可视化大屏1 ： 大屏_最终_1.html
+analysis2.ipynb是通过附件二数据生成可视化大屏2 ： 大屏_最终_2.html

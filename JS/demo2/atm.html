@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let balance = 1000;
+        flag = true;
+        while(flag){
+            let choice = +prompt("Enter your choice:\n\t1 for withdraw, \n\t2 for deposit, \n\t3 for balance, \n\t4 for exit");
+
+            switch(choice){
+                case 1:
+                    let amount = +prompt("Enter amount to withdraw");
+                    if(amount > balance){
+                        alert("Insufficient balance");
+                    }else{
+                        balance -= amount;
+                        alert("Withdrawal successful. Your new balance is " + balance);
+                    }
+                    break;
+                case 2:
+                    let deposit = +prompt("Enter amount to deposit");
+                    balance += deposit;
+                    alert("Deposit successful. Your new balance is " + balance);
+                    break;
+                case 3:
+                    alert("Your current balance is " + balance);
+                    break;
+                case 4:
+                    alert("Thank you for using our ATM");
+                    flag = false;
+                    break;
+                default:
+                    alert("Invalid choice. Please try again");
+            }
+        }
+
+    </script>
+</body>
+</html>

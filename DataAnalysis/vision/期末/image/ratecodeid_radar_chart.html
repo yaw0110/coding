@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/themes/macarons.js"></script>
+
+</head>
+<body >
+    <div id="44a8b6ea08b54aa091fa32537f100f81" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_44a8b6ea08b54aa091fa32537f100f81 = echarts.init(
+            document.getElementById('44a8b6ea08b54aa091fa32537f100f81'), 'macarons', {renderer: 'canvas'});
+        var option_44a8b6ea08b54aa091fa32537f100f81 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "radar",
+            "name": [
+                "Fare",
+                "Tip",
+                "Tolls",
+                "Improvement Surcharge",
+                "Total",
+                "Extra"
+            ],
+            "data": [
+                [
+                    11.2,
+                    2.25,
+                    0.13,
+                    0.3,
+                    17.21,
+                    1.03
+                ],
+                [
+                    51.92,
+                    8.58,
+                    4.79,
+                    0.3,
+                    69.39,
+                    1.17
+                ],
+                [
+                    10.75,
+                    1.26,
+                    0.0,
+                    0.3,
+                    15.81,
+                    0.5
+                ],
+                [
+                    74.58,
+                    10.06,
+                    2.38,
+                    0.3,
+                    90.75,
+                    1.28
+                ],
+                [
+                    41.99,
+                    5.91,
+                    1.09,
+                    0.29,
+                    52.31,
+                    0.01
+                ],
+                [
+                    4.23,
+                    2.07,
+                    0.03,
+                    0.3,
+                    7.89,
+                    0.0
+                ],
+                [
+                    16.16,
+                    0.79,
+                    0.82,
+                    0.26,
+                    21.43,
+                    0.99
+                ]
+            ],
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {}
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                [
+                    "Fare",
+                    "Tip",
+                    "Tolls",
+                    "Improvement Surcharge",
+                    "Total",
+                    "Extra"
+                ]
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "radar": [
+        {
+            "indicator": [
+                {
+                    "name": "Fare"
+                },
+                {
+                    "name": "Tip"
+                },
+                {
+                    "name": "Tolls"
+                },
+                {
+                    "name": "Improvement Surcharge"
+                },
+                {
+                    "name": "Total"
+                },
+                {
+                    "name": "Extra"
+                }
+            ],
+            "shape": "circle",
+            "startAngle": 90,
+            "name": {
+                "textStyle": {}
+            },
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "splitArea": {
+                "show": true,
+                "areaStyle": {
+                    "opacity": 0
+                }
+            },
+            "axisLine": {
+                "show": true,
+                "onZero": true,
+                "onZeroAxisIndex": 0
+            }
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "RatecodeID\u96f7\u8fbe\u56fe",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_44a8b6ea08b54aa091fa32537f100f81.setOption(option_44a8b6ea08b54aa091fa32537f100f81);
+    </script>
+</body>
+</html>

@@ -23,7 +23,7 @@
 
 # # 显示图形
 # plt.show()
-
+import time
 
 sql1 = '''
     select recordid odsrecordid, tenantcode, submittime, concat(toString(storeid), '-', toString(tenantcode)) storeid, storename, photo,  phototype, oss from ods_store_inandout_photo
@@ -78,3 +78,8 @@ sql1_4 = f'''
 
 
 print(sql1_1)
+
+
+record_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+
+print(record_time)
